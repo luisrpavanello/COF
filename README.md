@@ -57,14 +57,7 @@ COF-Indice/
 ## 🎨 Roadmap de Melhorias (Contribuições Bem-Vindas!)  
 
 ### Prioridades de Desenvolvimento  
-- [ ] Sistema de busca/filtro por:  
-  - Título de aula  
-  - Autor de referência  
-  - Período temporal  
-- [ ] Integração com APIs de livrarias para:  
-  - Links de compra direta  
-  - Disponibilidade em bibliotecas  
-- [ ] Exportação de listas de leitura em formatos variados (PDF, BibTeX).  
+- Página web simples que organiza as aulas do Curso Online de Filosofia de Olavo de Carvalho, permitindo visualizar os livros mencionados em cada aula. 
 
 ### Como Contribuir  
 1. Faça um fork do projeto.  

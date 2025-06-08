@@ -1,0 +1,3546 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Índice de aulas do Curso Online de Filosofia (COF)</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/static/normalize.css">
+        <style type="text/css">
+            body {
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                margin: 8px 16px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            table thead {
+                text-align: left;
+            }
+
+            table tr td, table tr th {
+                border-bottom: 1px solid #ccc;
+                padding: 0.2em 0.5em;
+            }
+
+            header {
+                border-bottom: 1px solid #aaa;
+                margin: 8px 0 0;
+            }
+
+            .display-none {
+                display: none;
+            }
+
+            .scroll-none {
+                overflow: hidden;
+            }
+
+            .blur {
+                /*filter: blur(20px);*/
+            }
+
+            #livros-modal {
+                top: 0;
+                left: 0;
+                overflow: auto;
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                z-index: 101;
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+
+            #livros-modal-content {
+                max-width: 550px;
+                margin: 3em auto;
+                box-sizing: border-box;
+                padding: 1em 2em;
+                background-color: #fff;
+                box-shadow: 0 0 1px 0 #aaa, 0 0 30px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            #livros-modal-content p.close-modal {
+                text-align: right;
+            }
+
+            #livros-modal-content h2 {
+                /*text-align: center;*/
+            }
+
+            .livro {
+                border-top: 1px solid #000;
+                padding: 16px 0;
+            }
+
+            .livro p.quote {
+            }
+
+            .livro p.quote span {
+                font-style: italic;
+            }
+
+            #content > p:first-child {
+                font-size: 0.7em;
+            }
+
+            .ver-livros {
+                color: #0066cc;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .ver-livros:hover {
+                color: #004499;
+            }
+        </style>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JTFFT24JP7"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-JTFFT24JP7');
+        </script>
+    </head>
+    <body>
+        <div id="livros-modal" class="display-none">
+            <div id="livros-modal-content">
+                <p class="close-modal">
+                    <a href="#">Fechar</a>
+                </p>
+                <h2>
+                    Livros mencionados na aula <span></span>
+                </h2>
+                <div id="lista-livros"></div>
+            </div>
+        </div>
+        <div id="content">
+            <header>
+                <p>
+                    <strong>Índice de aulas do Curso Online de Filosofia (COF) de Olavo de Carvalho</strong>
+                </p>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aula</th>
+                        <th>Data</th>
+                        <th>Título (provisório)</th>
+                        <th>Livros</th>
+                        <th>Duração</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="aula" data-aula-id="1">
+                        <td>1</td>
+                        <td>07/03/2009</td>
+                        <td>Considerações iniciais</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:33:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="2">
+                        <td>2</td>
+                        <td>14/03/2009</td>
+                        <td>Necrológio</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:43:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="3">
+                        <td>3</td>
+                        <td>21/03/2009</td>
+                        <td>Necrológio e Fetiche Verbal</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:37:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="4">
+                        <td>4</td>
+                        <td>18/04/2009</td>
+                        <td>Louis Lavelle - Elementos antagônicos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:23:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="5">
+                        <td>5</td>
+                        <td>25/04/2009</td>
+                        <td>Linguagem dos fatos. Formação imaginativa</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:58:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="6">
+                        <td>6</td>
+                        <td>03/05/2009</td>
+                        <td>Especial: Eric Voegelin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:27:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="7">
+                        <td>7</td>
+                        <td>16/05/2009</td>
+                        <td>Comunidade Virtual. Linguagem: aprender a falar</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:45:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="8">
+                        <td>8</td>
+                        <td>23/05/2009</td>
+                        <td>Síntese das aulas anteriores</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:48:30</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="9">
+                        <td>9</td>
+                        <td>06/06/2009</td>
+                        <td>Ética da Vida Intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:49:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="10">
+                        <td>10</td>
+                        <td>13/06/2009</td>
+                        <td>Formação do imaginário. Exercício Leitura Lenta</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:09:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="11">
+                        <td>11</td>
+                        <td>20/06/2009</td>
+                        <td>Educação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>4:14:19</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="12">
+                        <td>12</td>
+                        <td>27/06/2009</td>
+                        <td>Ciência e Realidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:31:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="13">
+                        <td>13</td>
+                        <td>04/07/2009</td>
+                        <td>Comentários a mensagem do Mario Chainho</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:30:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="14">
+                        <td>14</td>
+                        <td>11/07/2009</td>
+                        <td>Busca da Verdade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:01:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="15">
+                        <td>15</td>
+                        <td>18/07/2009</td>
+                        <td>Raciocínio intuitivo e construtivo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:46:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="16">
+                        <td>16</td>
+                        <td>25/07/2009</td>
+                        <td>Alta cultura no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:27:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="17">
+                        <td>17</td>
+                        <td>01/08/2009</td>
+                        <td>Alta cultura e ciência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:10:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="18">
+                        <td>18</td>
+                        <td>08/08/2009</td>
+                        <td>Percepção - Categorias de Aristóteles</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:11:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="19">
+                        <td>19</td>
+                        <td>15/08/2009</td>
+                        <td>Compreensão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:05:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="20">
+                        <td>20</td>
+                        <td>22/08/2009</td>
+                        <td>Leitura de textos filosóficos - Joseph Maréchal</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:08:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="21">
+                        <td>21</td>
+                        <td>29/08/2009</td>
+                        <td>Texto Maréchal. Erudição: instrumentos e atitudes mentais</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:27:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="22">
+                        <td>22</td>
+                        <td>05/09/2009</td>
+                        <td>Ambiente histórico-cultural</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:33:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="23">
+                        <td>23</td>
+                        <td>12/09/2009</td>
+                        <td>Presença do ser - carta Luciane Amato</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:34:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="24">
+                        <td>24</td>
+                        <td>19/09/2009</td>
+                        <td>Especial: Introdução à Psicologia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:58:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="25">
+                        <td>25</td>
+                        <td>26/09/2009</td>
+                        <td>Postura dos alunos no fórum e método de leitura do professor</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:51:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="26">
+                        <td>26</td>
+                        <td>03/10/2009</td>
+                        <td>Tomada de posse da inteligência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:09:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="27">
+                        <td>27</td>
+                        <td>10/10/2009</td>
+                        <td>Unidade e Percepção (TEXTO)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:18:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="28">
+                        <td>28</td>
+                        <td>17/10/2009</td>
+                        <td>Obstáculos ao aprendizado e ao desenvolvimento intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:31:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="29">
+                        <td>29</td>
+                        <td>24/10/2009</td>
+                        <td>Cultura superior</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:15:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="30">
+                        <td>30</td>
+                        <td>31/10/2009</td>
+                        <td>Ambiente mental brasileiro (artigo: "O erro organizado")</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:53:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="31">
+                        <td>31</td>
+                        <td>07/11/2009</td>
+                        <td>Forma e Matéria</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:16:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="32">
+                        <td>32</td>
+                        <td>14/11/2009</td>
+                        <td>Método de Relaxamento. Obras do Olavo - unidade (manuscrito)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:30:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="33">
+                        <td>33</td>
+                        <td>21/11/2009</td>
+                        <td>Como estudar filosofia - Didascalion</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:00:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="34">
+                        <td>34</td>
+                        <td>28/11/2009</td>
+                        <td>Objetivos do curso (gravação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:00:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="35">
+                        <td>35</td>
+                        <td>05/12/2009</td>
+                        <td>Domínio da língua e da literatura</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:50:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="36">
+                        <td>36</td>
+                        <td>12/12/2009</td>
+                        <td>Educação doméstica. Governo Mundial</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:00:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="37">
+                        <td>37</td>
+                        <td>19/12/2009</td>
+                        <td>A filosofia da iluminação (continuação: Categorias - Aristóteles)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:10:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="38">
+                        <td>38</td>
+                        <td>26/12/2009</td>
+                        <td>Perdão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:15:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="39">
+                        <td>39</td>
+                        <td>02/01/2010</td>
+                        <td>Autoridade intelectual (síntese sobre 1º ano do COF)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:54:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="40">
+                        <td>40</td>
+                        <td>09/01/2010</td>
+                        <td>Paralaxe Cognitiva - Karl Marx, O Capital</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:05:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="41">
+                        <td>41</td>
+                        <td>16/01/2010</td>
+                        <td>Comentários ao texto "A arte sacra e a estupidez profana"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:09:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="42">
+                        <td>42</td>
+                        <td>23/01/2010</td>
+                        <td>Literatura. Ciência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:13:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="43">
+                        <td>43</td>
+                        <td>30/01/2010</td>
+                        <td>Técnica filosófica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:59:19</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="44">
+                        <td>44</td>
+                        <td>06/02/2010</td>
+                        <td>Mapa da ignorância</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:11:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="45">
+                        <td>45</td>
+                        <td>13/02/2010</td>
+                        <td>Solidão intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:10:52</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="46">
+                        <td>46</td>
+                        <td>20/02/2010</td>
+                        <td>Aprendizado - mimetismo lingüístico brasileiro</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:28:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="47">
+                        <td>47</td>
+                        <td>27/02/2010</td>
+                        <td>Comportamento: Esclarecimento - postura</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:25:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="48">
+                        <td>48</td>
+                        <td>06/03/2010</td>
+                        <td>Introdução à Lógica Clássica e observações críticas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:33:17</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="49">
+                        <td>49</td>
+                        <td>13/03/2010</td>
+                        <td>Lógica: primeira apreensão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:54:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="50">
+                        <td>50</td>
+                        <td>20/03/2010</td>
+                        <td>Lógica: apreensão e juízo (gravação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:06:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="51">
+                        <td>51</td>
+                        <td>27/03/2010</td>
+                        <td>Lógica: conceitos elementares</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:49:22</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="52">
+                        <td>52</td>
+                        <td>03/04/2010</td>
+                        <td>Lógica: simples apreensão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:44:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="53">
+                        <td>53</td>
+                        <td>10/04/2010</td>
+                        <td>Lógica: conceitos elementares</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:10:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="54">
+                        <td>54</td>
+                        <td>17/04/2010</td>
+                        <td>Necrologio - modelos de imitação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:20:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="55">
+                        <td>55</td>
+                        <td>25/04/2010</td>
+                        <td>Filosofia antiga e medieval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:53:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="56">
+                        <td>56</td>
+                        <td>01/05/2010</td>
+                        <td>A alma imortal</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:36:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="57">
+                        <td>57</td>
+                        <td>08/05/2010</td>
+                        <td>A alma imortal</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:30:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="58">
+                        <td>58</td>
+                        <td>15/05/2010</td>
+                        <td>Especial: Filosofia das Ciências</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:50:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="59">
+                        <td>59</td>
+                        <td>22/05/2010</td>
+                        <td>A alma imortal - coleção de melodias</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:13:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="60">
+                        <td>60</td>
+                        <td>29/05/2010</td>
+                        <td>Lógica: Antepredicamentos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:21:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="61">
+                        <td>61</td>
+                        <td>05/06/2010</td>
+                        <td>A alma imortal e Literatura: papel na sociedade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:58:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="62">
+                        <td>62</td>
+                        <td>12/06/2010</td>
+                        <td>Lógica: Antepredicamentos - gravação: 3 partes</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:08</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="63">
+                        <td>63</td>
+                        <td>26/06/2010</td>
+                        <td>Lógica: juízo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:27:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="64">
+                        <td>64</td>
+                        <td>03/07/2010</td>
+                        <td>Síntese das últimas aulas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:06:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="65">
+                        <td>65</td>
+                        <td>10/07/2010</td>
+                        <td>A Filosofia Atual - textos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:01:17</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="66">
+                        <td>66</td>
+                        <td>17/07/2010</td>
+                        <td>A Filosofia Atual - texto</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:32:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="67">
+                        <td>67</td>
+                        <td>24/07/2010</td>
+                        <td>A Filosofia Atual - comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:55:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="68">
+                        <td>68</td>
+                        <td>31/07/2010</td>
+                        <td>Esclarecimentos sobre: Seminário e Wittgenstein</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:30:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="69">
+                        <td>69</td>
+                        <td>07/08/2010</td>
+                        <td>Mentalidade Revolucionária (pergunta de aluno)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:39:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="70">
+                        <td>70</td>
+                        <td>29/05/2010</td>
+                        <td>A Filosofia Atual - texto</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:21:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="71">
+                        <td>71</td>
+                        <td>21/08/2010</td>
+                        <td>Admiração invejosa - Wittgenstein</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:33:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="72">
+                        <td>72</td>
+                        <td>29/08/2010</td>
+                        <td>Considerações sobre a sociedade brasileira. Texto: Dois Métodos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:53:31</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="73">
+                        <td>73</td>
+                        <td>04/09/2010</td>
+                        <td>Perguntas dos alunos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:11:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="74">
+                        <td>74</td>
+                        <td>11/09/2010</td>
+                        <td>Influências Intelectuais do Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:55:47</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="75">
+                        <td>75</td>
+                        <td>18/09/2010</td>
+                        <td>A Filosofia Atual - texto</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:24:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="76">
+                        <td>76</td>
+                        <td>25/09/2010</td>
+                        <td>Dois Métodos - Textos Filosóficos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:53:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="77">
+                        <td>77</td>
+                        <td>02/10/2010</td>
+                        <td>Brasil e a atividade intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:39:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="78">
+                        <td>78</td>
+                        <td>09/10/2010</td>
+                        <td>Teoria Política - Fundamentos das Ciências Sociais</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:17:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="79">
+                        <td>79</td>
+                        <td>16/10/2010</td>
+                        <td>Especial: Consciência de Imortalidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:37:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="80">
+                        <td>80</td>
+                        <td>23/10/2010</td>
+                        <td>Sobre a leitura de textos filosóficos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:26:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="81">
+                        <td>81</td>
+                        <td>30/10/2010</td>
+                        <td>Investigação filosófica e a doutrina da Igreja Católica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:31:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="82">
+                        <td>82</td>
+                        <td>06/11/2010</td>
+                        <td>Visão mais ou menos organizada da filosofia do Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:43:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="83">
+                        <td>83</td>
+                        <td>13/11/2010</td>
+                        <td>A Vida Intelectual - As Doze Camadas da Personalidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:33:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="84">
+                        <td>84</td>
+                        <td>20/11/2010</td>
+                        <td>História da Filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:32:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="85">
+                        <td>85</td>
+                        <td>27/11/2010</td>
+                        <td>A Filosofia Administrativa</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:29:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="86">
+                        <td>86</td>
+                        <td>04/12/2010</td>
+                        <td>Engenharia Social e Agentes de Transformação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:06:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="87">
+                        <td>87</td>
+                        <td>11/12/2010</td>
+                        <td>O Valor da Educação Literária (gravação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="88">
+                        <td>88</td>
+                        <td>18/12/2010</td>
+                        <td>Aprendizagem</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="89">
+                        <td>89</td>
+                        <td>22/12/2010</td>
+                        <td>Exposição Sistemática da Filosofia I</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:08:52</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="90">
+                        <td>90</td>
+                        <td>15/01/2011</td>
+                        <td>Debates Públicos: fatores decisivos omitidos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:19:39</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="91">
+                        <td>91</td>
+                        <td>22/01/2011</td>
+                        <td>Exposição Sistemática da Filosofia II</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:03:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="92">
+                        <td>92</td>
+                        <td>29/01/2011</td>
+                        <td>Exposição Sistemática da Filosofia III</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:08:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="93">
+                        <td>93</td>
+                        <td>05/02/2011</td>
+                        <td>Testamento Filosófico, de Ravaisson</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="94">
+                        <td>94</td>
+                        <td>12/02/2011</td>
+                        <td>Debate Duguin - Fundamentos guenonianos das teses de Duguin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:53:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="95">
+                        <td>95</td>
+                        <td>19/02/2011</td>
+                        <td>Idoneidade intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="96">
+                        <td>96</td>
+                        <td>05/03/2011</td>
+                        <td>Perguntas dos alunos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="97">
+                        <td>97</td>
+                        <td>12/03/2011</td>
+                        <td>Aquisição da Cultura Filosófica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:01:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="98">
+                        <td>98</td>
+                        <td>19/03/2011</td>
+                        <td>Leitura e comentário: artigo: "Como tornar-se um gostosão intelectual"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:10:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="99">
+                        <td>99</td>
+                        <td>26/03/2011</td>
+                        <td>Leitura Formativa</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:45:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="100">
+                        <td>100</td>
+                        <td>02/04/2011</td>
+                        <td>Comentários sobre a leitura de Platão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:35:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="101">
+                        <td>101</td>
+                        <td>09/04/2011</td>
+                        <td>Debate Duguin - comentários da mensagem II - Geopolítica e História</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="102">
+                        <td>102</td>
+                        <td>16/04/2011</td>
+                        <td>Gravação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:45:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="103">
+                        <td>103</td>
+                        <td>23/04/2011</td>
+                        <td>Comentários sobre das leituras de Platão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="104">
+                        <td>104</td>
+                        <td>30/04/2011 </td>
+                        <td>Debate Duguin - Comentários sobre resposta de Duguin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:48:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="105">
+                        <td>105</td>
+                        <td>07/05/2011</td>
+                        <td>Debate Duguin - Leitura e comentários da 3ª resposta a Duguin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:29:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="106">
+                        <td>106</td>
+                        <td>14/05/2011</td>
+                        <td>Debate Duguin - Estudo: A.Duguin e a Guerra dos Continentes</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:50:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="107">
+                        <td>107</td>
+                        <td>28/05/2011</td>
+                        <td>Especial: Curso de Metafísica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>3:29:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="108">
+                        <td>108</td>
+                        <td>02/06/2011</td>
+                        <td>Aquisição de Cultura Literária</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:39:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="109">
+                        <td>109</td>
+                        <td>11/06/2011</td>
+                        <td>Gravação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="110">
+                        <td>110</td>
+                        <td>18/06/2011</td>
+                        <td>Gravação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:50:04</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="111">
+                        <td>111</td>
+                        <td>25/06/2011</td>
+                        <td>Gravação - artigo "A Raposa e o Tigre" - Política</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:22:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="112">
+                        <td>112</td>
+                        <td>02/07/2011</td>
+                        <td>Fédon - Comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="113">
+                        <td>113</td>
+                        <td>09/07/2011</td>
+                        <td>Fédon - Comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="114">
+                        <td>114</td>
+                        <td>16/07/2011</td>
+                        <td>Comentários sobre resposta a Carlos Nogué</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:44</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="115">
+                        <td>115</td>
+                        <td>23/07/2011</td>
+                        <td>Confissão - Autobiografia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:54:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="116">
+                        <td>116</td>
+                        <td>30/07/2011</td>
+                        <td>Palestra de Lançamento de Maquiavel, ou a Confusão Demoníaca</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:39:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="117">
+                        <td>117</td>
+                        <td>06/08/2011</td>
+                        <td>Fédon - Comentários finais (enviada o Olavo)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="118">
+                        <td>118</td>
+                        <td>13/08/2011</td>
+                        <td>Descartes - leitura e comentário do livro em andamento</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="119">
+                        <td>119</td>
+                        <td>20/08/2011</td>
+                        <td>Descartes - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="120">
+                        <td>120</td>
+                        <td>03/09/2011</td>
+                        <td>Descartes - continuação - Texto e comentários: A Maldição do Cartesianismo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:25:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="121">
+                        <td>121</td>
+                        <td>10/09/2011</td>
+                        <td>Descartes - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:10:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="122">
+                        <td>122</td>
+                        <td>17/09/2011</td>
+                        <td>Descartes - continuação - Textos e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:09:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="123">
+                        <td>123</td>
+                        <td>24/09/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:44</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="124">
+                        <td>124</td>
+                        <td>01/10/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:39:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="125">
+                        <td>125</td>
+                        <td>08/10/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="126">
+                        <td>126</td>
+                        <td>15/10/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="127">
+                        <td>127</td>
+                        <td>22/10/2011</td>
+                        <td>Especial: Raízes da Modernidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:04:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="128">
+                        <td>128</td>
+                        <td>29/10/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:44:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="129">
+                        <td>129</td>
+                        <td>05/11/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:50:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="130">
+                        <td>130</td>
+                        <td>15/11/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="131">
+                        <td>131</td>
+                        <td>19/11/2011</td>
+                        <td>Esclarecimentos de ordem metodológica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:42:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="132">
+                        <td>132</td>
+                        <td>25/11/2011 </td>
+                        <td>Esclarecimentos de ordem metodológica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="133">
+                        <td>133</td>
+                        <td>03/12/2011 </td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:10:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="134">
+                        <td>134</td>
+                        <td>10/12/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="135">
+                        <td>135</td>
+                        <td>17/12/2011</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:34:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="136">
+                        <td>136</td>
+                        <td>07/01/2012</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários (§ 25 a 40)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="137">
+                        <td>137</td>
+                        <td>14/01/2012</td>
+                        <td>Descartes - Meditação de Filosofia Primeira - leitura e comentários (IV-§ 1 a 2)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="138">
+                        <td>138</td>
+                        <td>21/01/2012</td>
+                        <td>Seis pólos, Vida intelectual no Brasil, Autobiografia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:01:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="140">
+                        <td>140</td>
+                        <td>28/01/2012</td>
+                        <td>Falso divórcio Ciência e Filosofia (apostila) - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="139">
+                        <td>139</td>
+                        <td>04/02/2012</td>
+                        <td>Nota sobre artigo do Julio Lemos. Falso divórcio entre Ciência e Filosofia (apostila)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:48:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="141">
+                        <td>141</td>
+                        <td>11/02/2012</td>
+                        <td>Ensino na Filosofia no Brasil (texto: "Miséria sem grandeza"). Filosofia Analítica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:22</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="142">
+                        <td>142</td>
+                        <td>18/02/2012</td>
+                        <td>Filosofia: formação do spoudaios</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:13:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="143">
+                        <td>143</td>
+                        <td>25/02/2012</td>
+                        <td>A extensão das ciências em todos os campos da vida social -</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:54:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="144">
+                        <td>144</td>
+                        <td>03/03/2012</td>
+                        <td>Positivismo - texto: "A visão geral do positivismo"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:32:17</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="145">
+                        <td>145</td>
+                        <td>10/03/2012</td>
+                        <td>Positivismo - texto: "A visão geral do positivismo" - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:14:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="146">
+                        <td>146</td>
+                        <td>17/03/2012</td>
+                        <td>A Educação segundo Platão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="147">
+                        <td>147</td>
+                        <td>24/03/2012</td>
+                        <td>Compreensão das opiniões alheias</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:04</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="148">
+                        <td>148</td>
+                        <td>31/03/2012</td>
+                        <td>As virtudes</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:27:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="149">
+                        <td>149</td>
+                        <td>07/04/2012</td>
+                        <td>Texto: "A filosofia e seu inverso II" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:46:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="150">
+                        <td>150</td>
+                        <td>14/04/2012</td>
+                        <td>Texto: "A filosofia e seu inverso III" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:40:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="151">
+                        <td>151</td>
+                        <td>21/04/2012</td>
+                        <td>Texto: "A filosofia e seu inverso III" - leitura e comentário (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:03:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="152">
+                        <td>152</td>
+                        <td>28/04/2012</td>
+                        <td>Pergunta de aluno: "Para quem é a filosofia"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:16:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="153">
+                        <td>153</td>
+                        <td>05/05/2012</td>
+                        <td>Pergunta de aluno: "Para quem é a filosofia" (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:02:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="154">
+                        <td>154</td>
+                        <td>12/05/2012</td>
+                        <td>Especial: Conhecimento e Moralidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:54:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="155">
+                        <td>155</td>
+                        <td>19/05/2012</td>
+                        <td>Leitura de textos filosóficos - § 1º de "A Nova Ciência Política" de Eric Voegelin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="156">
+                        <td>156</td>
+                        <td>26/05/2012</td>
+                        <td>A forma da Verdade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="157">
+                        <td>157</td>
+                        <td>02/06/2012</td>
+                        <td>Texto de Romano Guardini - Leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:22:17</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="158">
+                        <td>158</td>
+                        <td>09/06/2012</td>
+                        <td>Formas. História político-cultural do século XX</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:44:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="159">
+                        <td>159</td>
+                        <td>16/06/2012</td>
+                        <td>Autoevidência. Psicopatia.</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:58:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="160">
+                        <td>160</td>
+                        <td>23/06/2012</td>
+                        <td>Análise de um debate político</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:35:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="161">
+                        <td>161</td>
+                        <td>01/07/2012</td>
+                        <td>Texto: "Filosofia e Autoconsciência"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:41:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="162">
+                        <td>162</td>
+                        <td>07/07/2012</td>
+                        <td>Movimento gay - homossexualismo: natural e antinatural</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:07:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="163">
+                        <td>163</td>
+                        <td>14/07/2012</td>
+                        <td>Ideologia ecológica - disseminação da ética ecológica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:32:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="164">
+                        <td>164</td>
+                        <td>21/07/2012</td>
+                        <td>Texto: "Gnosiologia Pluridimensional", Pe Laudusãns</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:27:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="165">
+                        <td>165</td>
+                        <td>28/07/2012</td>
+                        <td>Texto: "Mentiroso, mentecapto ou ambas as coisas?"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="166">
+                        <td>166</td>
+                        <td>04/08/2012</td>
+                        <td>Ideologia ecológica - diferenças entre homens e animais</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:37:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="167">
+                        <td>167</td>
+                        <td>11/08/2012</td>
+                        <td>Teoria dos Quatro Discursos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="168">
+                        <td>168</td>
+                        <td>18/08/2012</td>
+                        <td>A soberaria dos fatos. Destruição do senso comum</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="169">
+                        <td>169</td>
+                        <td>25/08/2012</td>
+                        <td>Leitura e comentários de trechos do livro "Chaves da Gnose"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:28:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="170">
+                        <td>170</td>
+                        <td>01/09/2012</td>
+                        <td>Cristianismo - Conservadorismo brasileiro</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:02:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="171">
+                        <td>171</td>
+                        <td>08/09/2012</td>
+                        <td>Marxismo - linhas de estudo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:15:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="172">
+                        <td>172</td>
+                        <td>15/09/2012</td>
+                        <td>Finalidades do COF e responsabilidade dos alunos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:53:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="173">
+                        <td>173</td>
+                        <td>22/09/2012</td>
+                        <td>Sócio-construtivismo e a democratização da inépcia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:48:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="174">
+                        <td>174</td>
+                        <td>06/10/2012</td>
+                        <td>Especial: Princípios e Métodos da Auto-Educação* (revisão com demais aulas)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:06:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="175">
+                        <td>175</td>
+                        <td>13/10/2012</td>
+                        <td>COF: revisão do caminho percorrido, conclusões e esboço das realizações futuras</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:19:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="176">
+                        <td>176</td>
+                        <td>20/01/2012</td>
+                        <td>Movimento modernista - Igreja Católica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:25:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="177">
+                        <td>177</td>
+                        <td>27/10/2012</td>
+                        <td>Noção de Ser</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:52:55</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="178">
+                        <td>178</td>
+                        <td>03/11/2012</td>
+                        <td>Concílio Vaticano II - enfoques conservador e progressista (moral e psicológico)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:08:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="179">
+                        <td>179</td>
+                        <td>10/11/2012</td>
+                        <td>(1) Restauração da alta cultura (2) Lógica e os conceitos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="180">
+                        <td>180</td>
+                        <td>17/11/2012</td>
+                        <td>Discussão no Fórum Lógicos do Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:54:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="181">
+                        <td>181</td>
+                        <td>27/11/2012</td>
+                        <td>Ainda a Lógica e a abordagem filosófica de um assunto</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="182">
+                        <td>182</td>
+                        <td>03/12/2012</td>
+                        <td>Texto: "Por que não ser cristão", Bertrand Russell - Concepção de mundo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:42:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="183">
+                        <td>183</td>
+                        <td>10/12/2012</td>
+                        <td>Ainda Bertrand Russell e sua influência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:09:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="184">
+                        <td>184</td>
+                        <td>15/12/2012</td>
+                        <td>Filosofia atual (observações de Hermann Broch, 1932). Texto: "Crença e sistema"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:37:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="185">
+                        <td>185</td>
+                        <td>22/12/2012</td>
+                        <td>Textos: "Crença e Sistema" e "Seeing God", de Oliver Sacks</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:23:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="186">
+                        <td>186</td>
+                        <td>05/01/2013</td>
+                        <td>Texto: "Manual de Metodologia Dialética", Louis Lavelle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="187">
+                        <td>187</td>
+                        <td>12/01/2013</td>
+                        <td>Texto: "A afirmação do ser absoluto", Louis Lavelle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="188">
+                        <td>188</td>
+                        <td>19/01/2013</td>
+                        <td>Texto: "Espírito e Personalidade", Olavo de Carvalho</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="189">
+                        <td>189</td>
+                        <td>26/01/2013</td>
+                        <td>Texto: "A concepção da filosofia em Louis Lavelle"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:23:39</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="190">
+                        <td>190</td>
+                        <td>02/02/2013</td>
+                        <td>Texto: "O fato primitivo". Liberdade do espírito -- Louis Lavelle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:48:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="191">
+                        <td>191</td>
+                        <td>09/02/2013</td>
+                        <td>Texto: "Essência e Existência em Lavelle", Emérito Quito</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="192">
+                        <td>192</td>
+                        <td>16/02/2013</td>
+                        <td>Texto: "Experiência e presença", Christiane D'Ainval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:24:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="193">
+                        <td>193</td>
+                        <td>23/02/2013</td>
+                        <td>Texto: "Encontrar o que sou", Levelle. "Solidão e Comunhão", Michael Adam</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="194">
+                        <td>194</td>
+                        <td>02/03/2013</td>
+                        <td>Texto: "O segredo da intimidade", Lavelle. "Breve comentário a Lavelle", Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:07:52</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="195">
+                        <td>195</td>
+                        <td>09/03/2013</td>
+                        <td>Texto: "Reflexão e participação", Christiane D'Ainval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="196">
+                        <td>196</td>
+                        <td>16/03/2013</td>
+                        <td>Texto: "Educação segundo Lavelle", Vieillard-Baron</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:31</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="197">
+                        <td>197</td>
+                        <td>23/03/2013</td>
+                        <td>Artigo: "The Heretic", Andrew Ferguson. Texto: "Lavelle e o neokantismo", Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="198">
+                        <td>198</td>
+                        <td>30/03/2013</td>
+                        <td>Texto: "O mundo exterior e as perguntas cépticas", Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:34:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="199">
+                        <td>199</td>
+                        <td>06/04/2013</td>
+                        <td>Breve exposição da situação internacional</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:06:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="200">
+                        <td>200</td>
+                        <td>13/04/2013</td>
+                        <td>Notas: "A Filosofia em busca da sua autodefinição", Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="201">
+                        <td>201</td>
+                        <td>20/04/2013</td>
+                        <td>Texto: "Sobre a ontologia de Louis Lavelle", Philippe Perrot</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:54:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="202">
+                        <td>202</td>
+                        <td>27/04/2013</td>
+                        <td>Textos: "Exercícios espirituais e filosofia antiga", P.Hadot. "A unidade do conheci/o", Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:31</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="203">
+                        <td>203</td>
+                        <td>11/05/2013</td>
+                        <td>Especial: Introdução à filosofia de Louis Lavelle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:10:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="204">
+                        <td>204</td>
+                        <td>19/05/2013</td>
+                        <td>Textos: "Sobre a ontologia de Lavelle", Perrot. "O Absoluto e primeiro termo", Lavelle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:28:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="205">
+                        <td>205</td>
+                        <td>25/05/2013</td>
+                        <td>Textos: "Absoluto e primeiro termo", Lavelle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:09:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="206">
+                        <td>206</td>
+                        <td>01/06/2013</td>
+                        <td>Leitura e comentário trecho do livro sobre Descartes. Conversa com Bruno Garschagen</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:51:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="207">
+                        <td>207</td>
+                        <td>15/06/2013</td>
+                        <td>O que fazer para entender os acontecimentos atuais</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:06:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="208">
+                        <td>208</td>
+                        <td>22/06/2013</td>
+                        <td>Análise da situação brasileira - texto: "Caos e Estratégica" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="209">
+                        <td>209</td>
+                        <td>29/06/2013</td>
+                        <td>Leitura e comentário artigo "Alguém e ninguém" e texto "Enigma René Guénon"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="210">
+                        <td>210</td>
+                        <td>06/07/2013</td>
+                        <td>Autoanálise da análise conjuntural ou estratégico do Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:28:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="211">
+                        <td>211</td>
+                        <td>13/07/2013</td>
+                        <td>Texto "Filosofia e Cristianismo" - capítulo I: Do desvelamento à desintegração da verdade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:30:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="212">
+                        <td>212</td>
+                        <td>20/07/2013</td>
+                        <td>Texto "Filosofia e Cristianismo" - fascículo 2</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:14:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="213">
+                        <td>213</td>
+                        <td>27/07/2013</td>
+                        <td>Texto: "Filosofia e Cristianismo" - fascículo 3</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:33:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="214">
+                        <td>214</td>
+                        <td>03/08/2013</td>
+                        <td>Texto: "Filosofia e Cristianismo" - continuação fascículo 3</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:16:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="215">
+                        <td>215</td>
+                        <td>10/08/2013</td>
+                        <td>Artigo: "Mais inépcia acadêmica", Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:12:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="216">
+                        <td>216</td>
+                        <td>17/08/2013</td>
+                        <td>Notas e "Filosofia e Cristianismo" - fascículo 4</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:04:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="217">
+                        <td>217</td>
+                        <td>24/08/2013</td>
+                        <td>"Elementos da filosofia de Olavo de Carvalho", Ronald Robson - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:30:08</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="218">
+                        <td>218</td>
+                        <td>31/08/2013</td>
+                        <td>Comentários a críticas ao Olavo. "Elementos da Filosofia de Olavo de Carvalho"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:58:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="219">
+                        <td>219</td>
+                        <td>07/09/2013</td>
+                        <td>"Elementos da Filosofia de Olavo de Carvalho" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:23:22</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="220">
+                        <td>220</td>
+                        <td>14/09/2012</td>
+                        <td>"Elementos da Filosofia de Olavo de Carvalho" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:02:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="221">
+                        <td>221</td>
+                        <td>21/09/2013</td>
+                        <td>Prévia do curso Sociologia da Filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="222">
+                        <td>222</td>
+                        <td>05/10/2013</td>
+                        <td>Especial: Sociologia da Filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:57:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="223">
+                        <td>223</td>
+                        <td>12/10/2013</td>
+                        <td>Artigo: "O idiota em sentido estrito". Esclarecimento sobre tradicionalismo guenoniano</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:37:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="224">
+                        <td>224</td>
+                        <td>19/10/2013</td>
+                        <td>Conferência de lançamento de "O mínimo que você precisa saber..."</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:00:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="225">
+                        <td>225</td>
+                        <td>26/10/2013</td>
+                        <td>Descristianização do Ocidente</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="226">
+                        <td>226</td>
+                        <td>02/11/2013</td>
+                        <td>Filosofia da Linguagem -- Escola Analítica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:41:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="227">
+                        <td>227</td>
+                        <td>19/11/2013</td>
+                        <td>Notas à aula 226 (02/11/13) - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:23:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="228">
+                        <td>228</td>
+                        <td>16/11/2013</td>
+                        <td>Texto-base: "o que a educação grega tem a nos ensinar hoje"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:15:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="229">
+                        <td>229</td>
+                        <td>30/11/2013</td>
+                        <td>Texto: "O mundo da Rainha de Copas" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="230">
+                        <td>230</td>
+                        <td>07/12/2013</td>
+                        <td>Texto: "O mundo da Rainha de Copas" - leitura e comentário (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="231">
+                        <td>231</td>
+                        <td>21/12/2013</td>
+                        <td>Texto: 'O Ilusionista", Robin Phillips - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:01:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="232">
+                        <td>232</td>
+                        <td>28/12/2013</td>
+                        <td>Texto: 'O Ilusionista", Robin Phillips - leitura e comentário (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:16:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="233">
+                        <td>233</td>
+                        <td>04/01/2014</td>
+                        <td>Texto: 'O Ilusionista", Robin Phillips - leitura e comentário (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="234">
+                        <td>234</td>
+                        <td>11/01/2014</td>
+                        <td>Texto: 'O Ilusionista", Robin Phillips - leitura e comentário (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:28:30</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="235">
+                        <td>235</td>
+                        <td>18/01/2014</td>
+                        <td>A linguagem e o estado do idioma brasileiro</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:28:47</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="236">
+                        <td>236</td>
+                        <td>25/01/2014</td>
+                        <td>Notas para a aula 236 - Problema filosófico: Identidade permanente</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="237">
+                        <td>237</td>
+                        <td>01/02/2014</td>
+                        <td>Escola de Frankfurt - Marxismo cultural</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:07:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="238">
+                        <td>238</td>
+                        <td>08/02/2014</td>
+                        <td>Artigo "A luta de classes no Brasil" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="239">
+                        <td>239</td>
+                        <td>15/02/2014</td>
+                        <td>Nota postada no Facebook - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:25:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="240">
+                        <td>240</td>
+                        <td>22/02/2014</td>
+                        <td>Artigo: "A vingança de Aristóteles" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:52:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="241">
+                        <td>241</td>
+                        <td>01/03/2014</td>
+                        <td>Texto: "Consciência e forma" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="242">
+                        <td>242</td>
+                        <td>15/03/2014</td>
+                        <td>Texto: "Dissolução do conceito de filosofia" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:15:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="243">
+                        <td>243</td>
+                        <td>22/03/2014</td>
+                        <td>Texto: "Dissolução do conceito de filosofia" (continuação)- leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:10:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="244">
+                        <td>244</td>
+                        <td>29/03/2014</td>
+                        <td>A presente situação política no mundo e no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="245">
+                        <td>245</td>
+                        <td>12/04/2014</td>
+                        <td>Noção de tradição primordial de René Guénon</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="246">
+                        <td>246</td>
+                        <td>19/04/2014</td>
+                        <td>Observações sobre quesões de método nas ciências humanas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="247">
+                        <td>247</td>
+                        <td>03/05/2014</td>
+                        <td>Especial: Como tornar-se um leitor inteligente</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="248">
+                        <td>248</td>
+                        <td>10/05/2014</td>
+                        <td>Lições úteis à vida prática do estudante</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:08:52</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="249">
+                        <td>249</td>
+                        <td>17/05/2014</td>
+                        <td>Sobre a arte do debate - artigo "Falsificação integral" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:00:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="250">
+                        <td>250</td>
+                        <td>24/05/2014</td>
+                        <td>Esclarecimentos sobre Otto Maria Carpeaux e o estado presente da cultura brasileira</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:16:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="251">
+                        <td>251</td>
+                        <td>31/05/2014</td>
+                        <td>Ciência Política, segundo Olavo de Carvalho</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:49:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="252">
+                        <td>252</td>
+                        <td>14/06/2014</td>
+                        <td>Leitura e comentário de estudo "A Destruição da inteligência" (Digesto Econômico)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:12:08</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="253">
+                        <td>253</td>
+                        <td>21/06/2014</td>
+                        <td>As 12 camadas da personalidade e elementos da psicologia de Lipot Szondi</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="254">
+                        <td>254</td>
+                        <td>28/06/2014</td>
+                        <td>Necrologio - modelo de vida</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:01:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="255">
+                        <td>255</td>
+                        <td>05/07/2014</td>
+                        <td>A cultura heavy metal</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="256">
+                        <td>256</td>
+                        <td>19/07/2014</td>
+                        <td>A maturidade, sobretudo do homem de estudos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="257">
+                        <td>257</td>
+                        <td>26/07/2014</td>
+                        <td>Temas centrais do estudo da filosofia - notas lançadas no Facebook</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="258">
+                        <td>258</td>
+                        <td>02/08/2014</td>
+                        <td>Notas postadas no Facebook</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:24:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="259">
+                        <td>259</td>
+                        <td>11/09/2014</td>
+                        <td>O que é a História?</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:03:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="260">
+                        <td>260</td>
+                        <td>16/08/2014</td>
+                        <td>Justificação da verdade e o que é a verdade?</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:10:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="261">
+                        <td>261</td>
+                        <td>23/08/2014</td>
+                        <td>Problemas da sociedade brasileira</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="262">
+                        <td>262</td>
+                        <td>30/08/2014</td>
+                        <td>O senso da verdade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:03:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="263">
+                        <td>263</td>
+                        <td>12/09/2014</td>
+                        <td>A filosofia de Immanuel Kant</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:02:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="264">
+                        <td>264</td>
+                        <td>27/09/2014</td>
+                        <td>Artigos: "Meditação e consciência" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:15:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="265">
+                        <td>265</td>
+                        <td>04/10/2014</td>
+                        <td>Kant: apreensão da aparência fenomênica e não da coisa em si mesma</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:06:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="266">
+                        <td>266</td>
+                        <td>11/10/2014</td>
+                        <td>Texto: "As filosofias e sua estrutura"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:37:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="267">
+                        <td>267</td>
+                        <td>18/10/2014</td>
+                        <td>Textos: "Kant - idéia para uma história universal" e "Para compreender Kant"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:47:30</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="268">
+                        <td>268</td>
+                        <td>25/10/2014</td>
+                        <td>Texto: "Mundo ideal de Kant - a astúcia da razão"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:19:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="269">
+                        <td>269</td>
+                        <td>01/11/2014</td>
+                        <td>Texto: "O iluminismo segundo Kant" e "Intuição e existência"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:15:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="270">
+                        <td>270</td>
+                        <td>08/11/2014</td>
+                        <td>Texto: "O começo da história segundo Kant"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:17</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="271">
+                        <td>271</td>
+                        <td>15/11/2014</td>
+                        <td>Texto: "Intuição e existência" - Kant</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:01:44</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="272">
+                        <td>272</td>
+                        <td>29/11/2014</td>
+                        <td>Especial: A crise da inteligência segundo Roger Scruton</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="273">
+                        <td>273</td>
+                        <td>06/12/2014</td>
+                        <td>Kant</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="274">
+                        <td>274</td>
+                        <td>13/12/2014</td>
+                        <td>Notas: discussão sobre conceito de filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="275">
+                        <td>275</td>
+                        <td>20/12/2014</td>
+                        <td>Texto: Philosophical Analysis in the 20th Century, Scott Soames</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:17:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="276">
+                        <td>276</td>
+                        <td>27/12/2014</td>
+                        <td>Texto: "A alucinação revolucionária"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:21:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="277">
+                        <td>277</td>
+                        <td>03/01/2015</td>
+                        <td>Texto: "A alucinação revolucionária - new age"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="278">
+                        <td>278</td>
+                        <td>10/01/2015</td>
+                        <td>Cosmovisão do esquerdista médio de hoje</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="279">
+                        <td>279</td>
+                        <td>17/01/2015</td>
+                        <td>Texto do Mário Ferreira dos Santos - correções</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="280">
+                        <td>280</td>
+                        <td>24/01/2015</td>
+                        <td>Intuição (nota" no Facebook)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="281">
+                        <td>281</td>
+                        <td>07/02/2015</td>
+                        <td>Opiniões sobre Islamismo (critério da veracidade-presunção intelectual). Duguin e Heidegger</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:48:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="282">
+                        <td>282</td>
+                        <td>14/02/2015</td>
+                        <td>Heidegger e Duguin. Complemento ao artigo do DC</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:32:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="283">
+                        <td>283</td>
+                        <td>21/02/2015</td>
+                        <td>Teoria do Estado</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:51:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="284">
+                        <td>284</td>
+                        <td>28/02/2015</td>
+                        <td>Compreendendo Alexander Duguin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="285">
+                        <td>285</td>
+                        <td>14/03/2015</td>
+                        <td>Sobre a História das Religiões</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:02:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="286">
+                        <td>286</td>
+                        <td>28/03/2015</td>
+                        <td>Cultura e Personalidade - Introdução ao curso "Formação da Personalidade"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="287">
+                        <td>287</td>
+                        <td>04/04/2015</td>
+                        <td>Método filósofico - complemento ao curso ministrado em 2008</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="288">
+                        <td>288</td>
+                        <td>11/04/2015</td>
+                        <td>Conceito de filosofia (continuação da aula 287)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:22:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="289">
+                        <td>289</td>
+                        <td>18/04/2015</td>
+                        <td>Argumento tu quoque.</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:16:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="290">
+                        <td>290</td>
+                        <td>25/04/2015</td>
+                        <td>Método filósofico</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:56:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="291">
+                        <td>291</td>
+                        <td>02/05/2015</td>
+                        <td>Empirismo clássico (John Locke) e Kant</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:46:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="292">
+                        <td>292</td>
+                        <td>09/05/2015</td>
+                        <td>Senso de realidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:59:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="293">
+                        <td>293</td>
+                        <td>23/05/2015</td>
+                        <td>Especial: Formação da Personalidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:45:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="294">
+                        <td>294</td>
+                        <td>06/06/2015</td>
+                        <td>Articulação dos temas: o que é filosofia, necrologio, 12 camadas e as análises sociopolíticas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="295">
+                        <td>295</td>
+                        <td>13/06/2015</td>
+                        <td>Articulação de várias perspectivas na análise de uma situação real II</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:55</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="296">
+                        <td>296</td>
+                        <td>20/06/2015</td>
+                        <td>Articulação de várias perspectivas na análise de uma situação real III</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:45:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="297">
+                        <td>297</td>
+                        <td>27/06/2015</td>
+                        <td>I. Obstáculos para compreensão da realidade: mídia. II. Mateus Lima e impeachment D.Toffoli</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="298">
+                        <td>298</td>
+                        <td>04/07/2015</td>
+                        <td>Conceitos filosóficos (abstratos) aplicados aos fenômenos reais I</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:29:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="299">
+                        <td>299</td>
+                        <td>11/07/2015</td>
+                        <td>Cont. aula 298 e o estudo da filosofia como treino de perepção e expressão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:29:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="300">
+                        <td>300</td>
+                        <td>25/07/2015</td>
+                        <td>Cont. aula 299 e artigo "A Igreja Humilhada" (leitura e comentários) - simbolismo medieval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="301">
+                        <td>301</td>
+                        <td>01/08/2015</td>
+                        <td>Cont. Aula 300 e o artigo "Igreja Humilhada"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="302">
+                        <td>302</td>
+                        <td>08/08/2015</td>
+                        <td>Cont. Aula 301 - A perda da cosmologia medieval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="303">
+                        <td>303</td>
+                        <td>15/08/2015</td>
+                        <td>Cosmologia medieval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:17</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="304">
+                        <td>304</td>
+                        <td>22/08/2015</td>
+                        <td>Texto: "Duas visões do destino" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="305">
+                        <td>305</td>
+                        <td>29/08/2015</td>
+                        <td>Introdução teórica sobre a situação brasileira. Artigo: "A oligarquia contra o povo"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="306">
+                        <td>306</td>
+                        <td>05/09/2015</td>
+                        <td>Texto: "Herança de confusões" - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:17:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="307">
+                        <td>307</td>
+                        <td>12/09/2015</td>
+                        <td>Autoridade cognitiva (intelectual ou espiritual): elemento formador da estrutura da sociedade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:44:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="308">
+                        <td>308</td>
+                        <td>19/09/2015</td>
+                        <td>Breve análise da situação brasileira</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:53:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="309">
+                        <td>309</td>
+                        <td>26/09/2015</td>
+                        <td>Entrevista do documentário "O Jardim das Aflições"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:43:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="310">
+                        <td>310</td>
+                        <td>03/10/2015</td>
+                        <td>Entrevista do documentário "O Jardim das Aflições"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:02:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="311">
+                        <td>311</td>
+                        <td>10/10/2015</td>
+                        <td>Questões sobre problemas de método nas ciências sociais</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="312">
+                        <td>312</td>
+                        <td>17/10/2015</td>
+                        <td>Dificuldades pessoais na busca da verdade - Texto: Zetologia - leitura e comentário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:45:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="313">
+                        <td>313</td>
+                        <td>24/10/2015</td>
+                        <td>Dificuldades pessoais na busca da verdade - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:56:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="314">
+                        <td>314</td>
+                        <td>31/10/2015</td>
+                        <td>Dificuldades pessoais na busca da verdade - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:19:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="315">
+                        <td>315</td>
+                        <td>07/11/2015</td>
+                        <td>Dificuldades pessoais na busca da verdade - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="316">
+                        <td>316</td>
+                        <td>14/11/2015</td>
+                        <td>Breve análise da situação brasileira no momento - O Brasil perante a Nova Ordem Mundial</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="317">
+                        <td>317</td>
+                        <td>29/11/2015</td>
+                        <td>II Encontro de Escritores Brasileiros na Virgínia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:53:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="318">
+                        <td>318</td>
+                        <td>05/12/2015</td>
+                        <td>Dificuldades pessoais na busca da verdade (continuação) e acontecimentos recentes</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:37:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="319">
+                        <td>319</td>
+                        <td>12/12/2015</td>
+                        <td>Artigo de Joel Pinheiro da Fonseca (Revista Café Colombo) - comentários</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:50:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="320">
+                        <td>320</td>
+                        <td>19/12/2015</td>
+                        <td>Comentários ao livro Soumission, Michel Houellebecq</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:49:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="321">
+                        <td>321</td>
+                        <td>02/01/2016</td>
+                        <td>Comentários de vários tópicos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:50:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="322">
+                        <td>322</td>
+                        <td>09/01/2016</td>
+                        <td>Texto: Em busca da unidade da filosofia (cap. do livro "Introdução ao Método Filosófico")</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:18:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="323">
+                        <td>323</td>
+                        <td>16/01/2016</td>
+                        <td>Consideraçoes sobre a educação e auto-educação dentro do contexto brasileiro</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="324">
+                        <td>324</td>
+                        <td>23/01/2016</td>
+                        <td>Texto: A vocação filósofica de Platão - parágrafo do livro "Introdução ao Método Filosófico"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:30</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="325">
+                        <td>325</td>
+                        <td>30/01/2016</td>
+                        <td>Texto: O percurso filósofico de Aristóteles</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:17:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="326">
+                        <td>326</td>
+                        <td>02/08/2016</td>
+                        <td>Texto: O percurso filósofico de Aristóteles (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:19:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="327">
+                        <td>327</td>
+                        <td>13/02/2016</td>
+                        <td>Relação entre substância aristotélica e o círculo de latência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:21:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="328">
+                        <td>328</td>
+                        <td>27/02/2016</td>
+                        <td>Astrocaractereologia: o que é e para que serve</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="329">
+                        <td>329</td>
+                        <td>05/03/2016</td>
+                        <td>Condições permanentes que pesam sobre a existência humana</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:32:55</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="330">
+                        <td>330</td>
+                        <td>12/03/2016</td>
+                        <td>As interpretações dos acontecimentos atuais no Brasil: ausência do horizonte de consciência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:56:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="331">
+                        <td>331</td>
+                        <td>19/03/2016</td>
+                        <td>Condições permanentes que pesam sobre a existência humana (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="332">
+                        <td>332</td>
+                        <td>26/03/2016</td>
+                        <td>A história da filosofia e a história das idéias</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:22:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="333">
+                        <td>333</td>
+                        <td>02/04/2016</td>
+                        <td>Condições permanentes que pesam sobre a existência humana (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="334">
+                        <td>334</td>
+                        <td>09/04/2016</td>
+                        <td>Dialética (continuação - tema iniciado na aula 333)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:51:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="335">
+                        <td>335</td>
+                        <td>16/04/2016</td>
+                        <td>Perguntas e respostas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:06:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="336">
+                        <td>336</td>
+                        <td>30/04/2016</td>
+                        <td>Mentalidade e movimento revolucionário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="337">
+                        <td>337</td>
+                        <td>07/05/2016</td>
+                        <td>Grandes religiões e a filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="338">
+                        <td>338</td>
+                        <td>21/05/2016</td>
+                        <td>Hegemonia cultural no Brasil e resposta ao Reinaldo Azevedo (leitura e comentário)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:27:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="339">
+                        <td>339</td>
+                        <td>28/05/2016</td>
+                        <td>O conceito e a experiência de ordem - filosofia política</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:50:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="340">
+                        <td>340</td>
+                        <td>04/06/2016</td>
+                        <td>Filosofia política - Normas e a conduta da sociedade - continuaçao da aula 339</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:32:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="341">
+                        <td>341</td>
+                        <td>11/06/2016</td>
+                        <td>Diferença entre o discurso do agente político e o do observador científico</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="342">
+                        <td>342</td>
+                        <td>18/06/2016</td>
+                        <td>Posição do Brasil na área internacional</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:03:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="343">
+                        <td>343</td>
+                        <td>25/06/2016</td>
+                        <td>Os três esquemas globalistas e a concepção perenialista (dita tradicionalista)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:47:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="344">
+                        <td>344</td>
+                        <td>02/07/2016</td>
+                        <td>Os três esquemas globalistas e a concepção perenialista (dita tradicionalista) - continuação</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="345">
+                        <td>345</td>
+                        <td>09/07/2016</td>
+                        <td>Concepção perenista, os quatro disursos e o trauma da emergência da razão</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:30:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="346">
+                        <td>346</td>
+                        <td>16/07/2016</td>
+                        <td>Status quaestionis</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:52:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="347">
+                        <td>347</td>
+                        <td>23/07/2016</td>
+                        <td>A crise da linguagem</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:40:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="348">
+                        <td>348</td>
+                        <td>30/07/2016</td>
+                        <td>Ainda sobre a linguagem - análise de escritos culturais brasileiros</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:59:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="349">
+                        <td>349</td>
+                        <td>06/08/2016</td>
+                        <td>Conduta dos formadores de opinião</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:35:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="350">
+                        <td>350</td>
+                        <td>12/08/2016</td>
+                        <td>Necrologio. Documentário: O Jardim das Aflições. Debate Craig e Hitchens</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:53:04</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="351">
+                        <td>351</td>
+                        <td>20/08/2016</td>
+                        <td>Debate Craig e Hitchens: existência de Deus - Ciência e religião</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:41:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="352">
+                        <td>352</td>
+                        <td>27/08/2016</td>
+                        <td>Considerações sobre o filme "O Jardim das Aflições"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="353">
+                        <td>353</td>
+                        <td>03/09/2016</td>
+                        <td>Temas do curso "Guerra Cultural"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:53:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="354">
+                        <td>354</td>
+                        <td>10/09/2016</td>
+                        <td>Mentalidade Revolucionária</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="355">
+                        <td>355</td>
+                        <td>17/09/2016</td>
+                        <td>Kant e a oração - texto lido e comentado</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="356">
+                        <td>356</td>
+                        <td>24/09/2016</td>
+                        <td>O "eu" de Descartes e as suas conseqüências</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:47:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="357">
+                        <td>357</td>
+                        <td>01/10/2016</td>
+                        <td>Schelling - ambiente intelectual I</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:09:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="358">
+                        <td>358</td>
+                        <td>08/10/2016</td>
+                        <td>Schelling - ambiente intelectual II</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:31:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="359">
+                        <td>359</td>
+                        <td>15/10/2016</td>
+                        <td>Schelling - elementos históricos que o conduziram</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:07:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="360">
+                        <td>360</td>
+                        <td>29/10/2016</td>
+                        <td>Schelling - antecedentes</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:29:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="361">
+                        <td>361</td>
+                        <td>05/11/2016</td>
+                        <td>Sobre o populismo. Teoria Morgenthau</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:01</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="362">
+                        <td>362</td>
+                        <td>12/11/2016</td>
+                        <td>Teoria Morgenthau. Metafísicas antigas e modernas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:12:20</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="363">
+                        <td>363</td>
+                        <td>20/11/2016</td>
+                        <td>Metafísicas antigas e modernas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="364">
+                        <td>364</td>
+                        <td>26/11/2016</td>
+                        <td>Profecia de Richard Rorty. Argumento da contigência (S. Tomás de Aquino)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:18:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="365">
+                        <td>365</td>
+                        <td>10/12/2016</td>
+                        <td>Leitura e comentário de novo livro do Professor Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:29</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="366">
+                        <td>366</td>
+                        <td>17/12/2016</td>
+                        <td>Leitura e comentário de novo livro do Professor Olavo (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:51:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="367">
+                        <td>367</td>
+                        <td>07/01/2017</td>
+                        <td>Leitura e comentário de novo livro do Professor Olavo (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>2:02:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="368">
+                        <td>368</td>
+                        <td>14/01/2017</td>
+                        <td>Introdução preparatória do curso Esoterismo na História. Notas sobre simbolismo e realidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:12:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="369">
+                        <td>369</td>
+                        <td>21/01/2017</td>
+                        <td>Introdução preparatória do curso Esoterismo na História. Notas sobre simbolismo e realidade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:30:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="370">
+                        <td>370</td>
+                        <td>28/01/2017</td>
+                        <td>Breve autobiografia e os objetivos do COF</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:24:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="371">
+                        <td>371</td>
+                        <td>04/02/2017</td>
+                        <td>Ética material e ética formal</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="372">
+                        <td>372</td>
+                        <td>18/02/2017</td>
+                        <td>Movimento da idéias - debate intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:16</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="373">
+                        <td>373</td>
+                        <td>27/02/2017</td>
+                        <td>Ciência Política: rótulos ideológicos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:05:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="374">
+                        <td>374</td>
+                        <td>04/03/2017</td>
+                        <td>Situação brasileira</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:27:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="375">
+                        <td>375</td>
+                        <td>11/03/2017</td>
+                        <td>Estudo de caso: transformações psicológicas no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:32:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="376">
+                        <td>376</td>
+                        <td>18/03/2017</td>
+                        <td>Comentários à sentença de Aristóteles: ritos de mistério (Esoterismo)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:15:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="377">
+                        <td>377</td>
+                        <td>25/03/2017</td>
+                        <td>Identidade nacional</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:21:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="378">
+                        <td>378</td>
+                        <td>01/04/2017</td>
+                        <td>As castas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:24:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="379">
+                        <td>379</td>
+                        <td>15/04/2017</td>
+                        <td>Educação literária: o tempo - verbus mentis</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="380">
+                        <td>380</td>
+                        <td>21/04/2017</td>
+                        <td>A alta cultura</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:24:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="381">
+                        <td>381</td>
+                        <td>29/04/2017</td>
+                        <td>Nova ideologia globalista: negação da intuição, da experiência</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:52:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="382">
+                        <td>382</td>
+                        <td>06/04/2017</td>
+                        <td>Interpretação do decreto da Igreja Católica contra comunismo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:17:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="383">
+                        <td>383</td>
+                        <td>13/05/2017</td>
+                        <td>Nova ordem mundial: livros de Alain Sorel e Lucien Cerise</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:05:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="384">
+                        <td>384</td>
+                        <td>20/05/2017</td>
+                        <td>Sobre o romance "Luz de Agosto" de William Faulkner</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:29:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="385">
+                        <td>385</td>
+                        <td>27/05/2017</td>
+                        <td>Novilíngua orwelliana e Marx &amp;Engels</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:55:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="386">
+                        <td>386</td>
+                        <td>02/06/2017</td>
+                        <td>Sobre o documentário "O Jardim das Aflições"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:16:55</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="387">
+                        <td>387</td>
+                        <td>10/06/2017</td>
+                        <td>Tema da história da filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:49:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="388">
+                        <td>388</td>
+                        <td>17/06/2017</td>
+                        <td>Queda do QI médio brasileiro e suas conseqüências</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:39:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="389">
+                        <td>389</td>
+                        <td>24/06/2017</td>
+                        <td>René Guénon: continuação da aula 388</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:59:21</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="390">
+                        <td>390</td>
+                        <td>01/07/2017</td>
+                        <td>Fedro - Platão: comentário trecho 274e a 275a. Arte da escrita</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:21:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="391">
+                        <td>391</td>
+                        <td>08/07/2017</td>
+                        <td>Como montar uma biblioteca e organizar os estudos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:33:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="392">
+                        <td>392</td>
+                        <td>15/07/2017</td>
+                        <td>Análise do panorama eleitoral brasileiro</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:41:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="393">
+                        <td>393</td>
+                        <td>22/07/2017</td>
+                        <td>Tópicos da evolução histórica do marxismo (a complexidade das relações entre ideologia e movimento político)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="394">
+                        <td>394</td>
+                        <td>29/07/2017</td>
+                        <td>A direita atual; que proveitos cognitivos podemos tirar da obra de George Ivanovich Gurdjieff</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:59:26</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="395">
+                        <td>395</td>
+                        <td>05/08/2017</td>
+                        <td>Leitura de trecho de um livro que Olavo está escrevendo (título provisório: A Tragédia da Utopia: Do sonho de liberdade à escravidão consentida)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="396">
+                        <td>396</td>
+                        <td>12/08/2017</td>
+                        <td>Continuação da aula anterior e o movimento diversitário</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:17:19</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="397">
+                        <td>397</td>
+                        <td>19/08/2017</td>
+                        <td>O intuicionismo e a tradição aristotélico-tomista</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:26:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="398">
+                        <td>398</td>
+                        <td>26/08/2017</td>
+                        <td>Alta cultura e mídia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:29:38</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="399">
+                        <td>399</td>
+                        <td>02/09/2017</td>
+                        <td>Linguagem e sua função no processo do raciocínio</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:12:55</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="400">
+                        <td>400</td>
+                        <td>16/09/2017</td>
+                        <td>O que é arte? (com base no acontecimento do santander e no projeto de parlamentares pra descriminalizar qualquer tipo de arte)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:16:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="401">
+                        <td>401</td>
+                        <td>26/09/2017</td>
+                        <td>Teoria semiológica do conhecimento; João de Sto Tomás</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="402">
+                        <td>402</td>
+                        <td>30/09/2017</td>
+                        <td>Análise da situação brasileira com base no episódio masp e santander</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:28:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="403">
+                        <td>403</td>
+                        <td>07/10/2017</td>
+                        <td>Análise da situação brasileira com base no fracasso dos líderes (mbl e etc) da nova direita</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:35:36</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="404">
+                        <td>404</td>
+                        <td>14/10/2017</td>
+                        <td>O que é arte? Análise do episódio santander e masp</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:44:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="405">
+                        <td>405</td>
+                        <td>21/10/2017</td>
+                        <td>Os movimentos de maio de 1968 inseridos na tradição gnóstica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:25:02</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="406">
+                        <td>406</td>
+                        <td>04/11/2017</td>
+                        <td>Análise da situação brasileira com base num documento emitido pela universidade federal da paraíba</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="407">
+                        <td>407</td>
+                        <td>11/11/2017</td>
+                        <td>Gnosiologia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:14:42</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="408">
+                        <td>408</td>
+                        <td>25/11/2017</td>
+                        <td>Quebra da hegemonia esquerdista no Brasil, perspectivas e caminhos pra intelectualidade nascente</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:03:48</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="409">
+                        <td>409</td>
+                        <td>02/12/2017</td>
+                        <td>Última aula do curso sobre o Mario Ferreira dos Santos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:54:31</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="410">
+                        <td>410</td>
+                        <td>09/12/2017</td>
+                        <td>O problema da possibilidade da existência e do conhecimento da verdade</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:02:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="411">
+                        <td>411</td>
+                        <td>16/12/2017</td>
+                        <td>Filosofia e história da filosofia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:51:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="412">
+                        <td>412</td>
+                        <td>23/12/2017</td>
+                        <td>Por que a literatura é a base de toda a educação superior</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:36:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="413">
+                        <td>413</td>
+                        <td>06/01/2018</td>
+                        <td>O mito do surgimento da poesia e as funções da linguagem</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:18:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="414">
+                        <td>414</td>
+                        <td>13/01/2018</td>
+                        <td>“A dupla tragédia da utopia” (trechos do livro sobre a revolução diversitária ou multicultural que Olavo está escrevendo)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:09:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="415">
+                        <td>415</td>
+                        <td>20/01/2018</td>
+                        <td>Continuação de “A dupla tragédia da utopia”</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:55:53</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="416">
+                        <td>416</td>
+                        <td>27/01/2018</td>
+                        <td>As raízes intelectuais do Maio de 68</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:04</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="417">
+                        <td>417</td>
+                        <td>03/02/2018</td>
+                        <td>A contribuição de Jacques Derrida para a “revolução diversitária”</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:08:40</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="418">
+                        <td>418</td>
+                        <td>10/02/2018</td>
+                        <td>A Igreja Católica e a mentalidade diversitária</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:08:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="419">
+                        <td>419</td>
+                        <td>17/02/2018</td>
+                        <td>Continuação da exposição sobre os antecedentes do Maio de 68</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:08:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="420">
+                        <td>420</td>
+                        <td>24/02/2018</td>
+                        <td>A heresia em Karl Rahner</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:55:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="421">
+                        <td>421</td>
+                        <td>10/03/2018</td>
+                        <td>Resumo da primeira parte do livro de Olavo de Carvalho sobre a mentalidade diversitária</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:09:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="422">
+                        <td>422</td>
+                        <td>21/04/2018</td>
+                        <td>O fenômeno Monte Verità (sobre a mentalidade diversitária)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:00:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="423">
+                        <td>423</td>
+                        <td>05/05/2018</td>
+                        <td>Dois assuntos: A situação atual dos brasileiros e a doutrina católica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:53:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="424">
+                        <td>424</td>
+                        <td>12/05/2018</td>
+                        <td>Dois assuntos: A situação atual do Brasil e a obra de Wolfgang Smith</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:08:34</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="425">
+                        <td>425</td>
+                        <td>19/05/2018</td>
+                        <td>Técnicas e métodos da vida intelectual</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:47:04</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="426">
+                        <td>426</td>
+                        <td>25/05/2018</td>
+                        <td>Revolução de 68 - Frijof Shuon - categorias de Aristóteles – Sociologia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:02:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="427">
+                        <td>427</td>
+                        <td>02/06/2018</td>
+                        <td>Situação política no Brasil – Igreja Ciência e simbolismo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:57:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="428">
+                        <td>428</td>
+                        <td>09/06/2018</td>
+                        <td>Religião – facto - marxismo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:10:18</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="429">
+                        <td>429</td>
+                        <td>23/06/2018</td>
+                        <td>Denúncia de Priscila Garcia e Celina Vieira – Simbolismo Medieval</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:56:25</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="430">
+                        <td>430</td>
+                        <td>07/07/2018</td>
+                        <td>Situação brasileira – Intervenção militar</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:24:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="431">
+                        <td>431</td>
+                        <td>14/07/2018</td>
+                        <td>As ciências sociais no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:52:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="432">
+                        <td>432</td>
+                        <td>22/07/2018</td>
+                        <td>Ronald Dworkin inspirador dos juízes brasileiros</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:45:03</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="433">
+                        <td>433</td>
+                        <td>28/07/2018</td>
+                        <td>Vida política brasileira</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:49:23</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="434">
+                        <td>434</td>
+                        <td>04/08/2018</td>
+                        <td>Descobertas não comunicadas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:00:09</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="435">
+                        <td>435</td>
+                        <td>11/08/2018</td>
+                        <td>Comentário a entrevista da filha de Dugin</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:05:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="436">
+                        <td>436</td>
+                        <td>25/08/2018</td>
+                        <td>Aula 5 do curso Simbolismo e Ordem Cósmica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:11</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="437">
+                        <td>437</td>
+                        <td>01/09/2018</td>
+                        <td>Semiótica e John Deely</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:35:33</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="438">
+                        <td>438</td>
+                        <td>08/09/2018</td>
+                        <td>Lula – vida brasileira – religião – atentado a Bolsonaro</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:40:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="439">
+                        <td>439</td>
+                        <td>15/08/2018</td>
+                        <td>Teoria do signo e do símbolo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:52:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="440">
+                        <td>440</td>
+                        <td>22/09/2018</td>
+                        <td>Nominalismo e eucaristia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:47:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="441">
+                        <td>441</td>
+                        <td>29/09/2018</td>
+                        <td>Socialismo e banditismo no Brasil e no mundo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:48:10</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="442">
+                        <td>442</td>
+                        <td>06/10/2018</td>
+                        <td>Dois tipos de ciência segundo Bentham</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:37:56</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="443">
+                        <td>443</td>
+                        <td>12/10/2018</td>
+                        <td>Crítica a livro de Haddad no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:03:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="444">
+                        <td>444</td>
+                        <td>20/10/2018</td>
+                        <td>O escritor e o mundo universitário no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:06:00</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="445">
+                        <td>445</td>
+                        <td>27/10/2018</td>
+                        <td>Sobre o analfabetismo funcional no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:49:58</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="446">
+                        <td>446</td>
+                        <td>03/11/2018</td>
+                        <td>Considerações sobre o fenómeno da educação no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:38:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="447">
+                        <td>447</td>
+                        <td>10/11/2018</td>
+                        <td>Relações entre história e autobiografia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:48:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="448">
+                        <td>448</td>
+                        <td>17/11/2018</td>
+                        <td>Mino Carta e a Revolução Cultural</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:04:06</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="449">
+                        <td>449</td>
+                        <td>24/11/2018</td>
+                        <td>Fascismo (disponibilizada para o pessoal da grande mídia)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:43:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="450">
+                        <td>450</td>
+                        <td>01/12/2018</td>
+                        <td>Resposta a Celso Rocha Barros e Rui Fausto - Fascismo - Questões do Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:07:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="451">
+                        <td>451</td>
+                        <td>08/12/2018</td>
+                        <td>Stephen Hawking e o "Grande Projeto"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:50:47</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="452">
+                        <td>452</td>
+                        <td>15/12/2018</td>
+                        <td>Visão geral da obra de Olavo e resposta a Christian Dunker</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:43:41</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="453">
+                        <td>453</td>
+                        <td>?</td>
+                        <td>Crise da Filosofia Ocidental - Vladimir Soloviov</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:46:14</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="454">
+                        <td>454</td>
+                        <td>05/01/2019</td>
+                        <td>Comentários do texto: "Nós, o lixo marxista" do Vladimir Safatle</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:00:54</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="455">
+                        <td>455</td>
+                        <td>12/01/2019</td>
+                        <td>Filosofia do objeto e filosofia do sujeito</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:43:39</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="456">
+                        <td>456</td>
+                        <td>19/01/2019</td>
+                        <td>Breve resumo da filosofia do Professor Olavo de Carvalho e questões sobre a China (reconhecimento facial)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:49:39</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="457">
+                        <td>457</td>
+                        <td>26/01/2019</td>
+                        <td>Jean Wyllys ("ameaças" e saída do Brasil) e demais comentários sobre declaração do General Mourão: "Ameaça a Jean Wyllys é “crime contra a democracia”, diz Mourão"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:15:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="458">
+                        <td>458</td>
+                        <td>02/02/2019</td>
+                        <td>Jean Piaget/Gottfried Wilhelm Leibniz</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:54:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="459">
+                        <td>459</td>
+                        <td>09/02/2019</td>
+                        <td>Filosofia da História</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:38:32</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="460">
+                        <td>460</td>
+                        <td>16/02/2019</td>
+                        <td>Comentários sobre o texto de Daniel Tourinho Peres</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:17:28</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="461">
+                        <td>461</td>
+                        <td>23/02/2019</td>
+                        <td>História do Otto Maria Carpeaux</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:38:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="462">
+                        <td>462</td>
+                        <td>02/03/2019</td>
+                        <td>Escola de Frankfurt + perguntas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:38:49</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="463">
+                        <td>463</td>
+                        <td>09/03/2019</td>
+                        <td>Última aula do curso avulso: "Ser e Poder"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:44:51</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="464">
+                        <td>464</td>
+                        <td>23/03/2019</td>
+                        <td>Argumento ad hominem e paralaxe cognitiva</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:13:57</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="465">
+                        <td>465</td>
+                        <td>30/03/2019</td>
+                        <td>Comentários sobre a reportagem da Época: "A derradeira análise da obra de Olavo de Carvalho para nunca ter de lê-lo."</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:20:31</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="466">
+                        <td>466</td>
+                        <td>06/04/2019</td>
+                        <td>Relação entre cultura filosófica e técnica filosófica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:45:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="467">
+                        <td>467</td>
+                        <td>13/04/2019</td>
+                        <td>Positivismo Militar no Brasil</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:37:12</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="468">
+                        <td>468</td>
+                        <td>20/04/2019</td>
+                        <td>Comentários sobre a reportagem da Época e relação entre cultura filosófica e técnica filosófica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:45:52</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="469">
+                        <td>469</td>
+                        <td>04/05/2019</td>
+                        <td>A Dialética Simbólica</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:09:59</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="470">
+                        <td>470</td>
+                        <td>11/05/2019</td>
+                        <td>A Dialética Simbólica (continuação)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:46:04</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="471">
+                        <td>471</td>
+                        <td>18/05/2019</td>
+                        <td>Aula gravada (considerações sobre o COF e sobre o momento político atual)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:37:37</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="472">
+                        <td>472</td>
+                        <td>25/05/2019</td>
+                        <td>Dialética Simbólica e comentários sobre a manifestação do dia 26/05/2019</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:15:07</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="473">
+                        <td>473</td>
+                        <td>01/06/2019</td>
+                        <td>Leitura de duas questões do curso: "A  história da educação" de uma universidade brasileira</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:41:46</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="474">
+                        <td>474</td>
+                        <td>08/06/2019</td>
+                        <td>Aviso da Vide Editorial (hangout com prof Olavo) e comentários sobre experimento feito pelo prof (terraplanistas)</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:41:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="475">
+                        <td>475</td>
+                        <td>15/06/2019</td>
+                        <td>Ciências naturais ou matemáticas e histórias das disciplinas</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:23:15</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="476">
+                        <td>476</td>
+                        <td>22/06/2019</td>
+                        <td>Ciência da realidade concreta</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:29:43</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="477">
+                        <td>477</td>
+                        <td>29/06/2019</td>
+                        <td>Comentários sobre post no facebook: "Debate Cultural- décadas de 60/70"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:41:35</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="478">
+                        <td>478</td>
+                        <td>06/07/2019</td>
+                        <td>Leitura de um trecho do livro: " O verdadeiro pensamento de Augusto Comte"</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:52:27</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="479">
+                        <td>479</td>
+                        <td>13/07/2019</td>
+                        <td>Aviso: de 09 a 12/08 - ocorre o 4° Encontro Europeu do COF -comentários breves sobre o curso: "Psicologia do Fascismo" do Vladimir Safatle e demais considerações</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:49:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="480">
+                        <td>480</td>
+                        <td>20/07/2019</td>
+                        <td>Elemento fundamental da cultura moderna: ideia de que a sociedade moderna baseada na liberdade  de opinião e direitos humanos seria fomentada pelo progresso da ciência e tecnologia</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:45:45</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="481">
+                        <td>481</td>
+                        <td>27/07/2019</td>
+                        <td>Lumpemproletariado: segunda sociedade de classes dentro da sociedade de classes</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:21:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="482">
+                        <td>482</td>
+                        <td>03/08/2019</td>
+                        <td>Comentários sobre a entrevista dada ao Bernardo Kuster e comentários sobre a obra de filosofia do professor Olavo</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:07:05</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="483">
+                        <td>483</td>
+                        <td>17/08/2019</td>
+                        <td>Comentários sobre um trecho do livro: "A Filosofia Primeira" de Edmund Husserl</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:13</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="484">
+                        <td>484</td>
+                        <td>24/08/2019</td>
+                        <td>Esquema da escola de Frankfurt e demais considerações</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:11:24</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="485">
+                        <td>485</td>
+                        <td>31/08/2019</td>
+                        <td>Pergunta do alunos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>0:45:50</td>
+                    </tr>
+                    <tr class="aula" data-aula-id="486">
+                        <td>486</td>
+                        <td>07/09/2019</td>
+                        <td>Debates científicos</td>
+                        <td class="ver-livros">Ver livros</td>
+                        <td>1:43:38</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

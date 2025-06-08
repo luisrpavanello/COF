@@ -38,11 +38,7 @@ COF-Indice/
 ├── index.html          # Estrutura principal da página  
 ├── script.js           # Lógica de interação e carregamento dinâmico  
 ├── data.json           # Banco de dados de referências bibliográficas  
-├── README.md           # Documentação do projeto  
-└── assets/             # (Opcional) Diretório para recursos adicionais  
-    ├── css/  
-    │   └── styles.css  # Estilos complementares  
-    └── img/            # Arquivos de imagem  
+└── README.md           # Documentação do projeto  
 ```  
 
 ## 🚀 Como Usar  
